@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(90deg ,rgb(0, 80, 252), rgb(59, 121, 255), rgb(191, 209, 241));
+    user-select: none;
+}
+.calc{
+    margin: 160px auto;
+    padding: 50px 50px;
+    width: 300px;
+    border-radius: 50px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.6);
+    box-shadow: 10px 10px 50px rgb(255, 255, 255);
+}
+.botaos{
+    margin: 0 auto;
+    width: 252px;
+}
+#tela{
+    background-color: white;
+    margin-bottom: 20px;
+    display: block;
+    padding: 20px;
+    width: 212px;
+    height: 34px;
+    text-align: right;
+    font-size: 24px;
+    overflow: auto;
+    font-family: cursive;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+#tela::-webkit-scrollbar-track {
+    background-color: white;
+}
+#tela::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+    background: #F4F4F4;
+}
+#tela::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border-radius: 15px;
+}
+.botoes-calc,.botoes-calc-i,.botoes-calca-i{
+    width: 60px;
+    height: 60px;
+    margin: 4px 0px;
+    border-radius:  10px;
+    border: none;
+    cursor: pointer;
+}
+button:active{
+    box-shadow: inset 2px 2px rgb(255, 255, 255);
+}
+.botoes-calca-i{
+    width: 124px;
+    background-color: rgb(241, 95, 241);
+    color: white;
+    font-size: 20px;
+}
+.botoes-calc-i{
+    background-color: rgb(241, 95, 241);
+    color: white;
+}
+.created-by{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
