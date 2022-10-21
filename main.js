@@ -21,6 +21,6 @@ function calcular()
     }
     else
     {
-        document.getElementById('tela').innerHTML = "Nada..."
+        document.getElementById('tela').innerHTML = " "
     }
 }
