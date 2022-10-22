@@ -1,11 +1,11 @@
 function insert(num)
 {
-    var numero = document.getElementById('tela').innerHTML;
+    let numero = document.getElementById('tela').innerHTML;
     document.getElementById('tela').innerHTML = numero + num;
 }
 function voltar()
 {
-    var tela = document.getElementById('tela').innerHTML;
+    let tela = document.getElementById('tela').innerHTML;
     document.getElementById('tela').innerHTML = tela.substring(0, tela.length -1);
 }
 function limpar()
@@ -14,7 +14,7 @@ function limpar()
 }
 function calcular()
 {
-    var tela = document.getElementById('tela').innerHTML;
+    let tela = document.getElementById('tela').innerHTML;
     if(tela)
     {
         document.getElementById('tela').innerHTML = eval(tela);
