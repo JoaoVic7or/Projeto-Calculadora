@@ -1,3 +1,7 @@
+:root{
+    --branco: #ffff;
+}
+
 body{
     background: linear-gradient(90deg ,rgb(0, 80, 252), rgb(59, 121, 255), rgb(191, 209, 241));
     user-select: none;
@@ -21,8 +25,9 @@ body{
     width: 252px;
 }
 .tela{
-    background-color: #ffff;
+    background: var(--branco);
     margin-bottom: 20px;
+    margin-left: 24px;
     display: block;
     padding: 20px;
     width: 212px;
@@ -34,10 +39,9 @@ body{
     text-overflow: ellipsis;
     overflow: hidden;
     overflow-y: hidden;
-    border-radius: 5px;
 }
 .tela::-webkit-scrollbar-track {
-    background-color: #ffff;
+    background: var(--branco);
 }
 .tela::-webkit-scrollbar {
     width: 2px;
@@ -55,7 +59,7 @@ body{
     border-radius:  10px;
     border: none;
     cursor: pointer;
-    background-color: #ffff;
+    background: var(--branco);
 }
 button:active{
     box-shadow: inset 2px 2px rgb(255, 255, 255);
@@ -66,17 +70,17 @@ button:active{
     margin-left: 130px;
     margin-top: -64px;
     background-color: rgb(241, 95, 241);
-    color: #ffff;
+    color: var(--branco);
     font-size: 20px;
 }
 .operadores{ 
     background-color: rgb(241, 95, 241);
-    color: #ffff;
+    color: var(--branco);
 }
 .created-by{
     position: absolute;
     margin-left: 45px;
     margin-top: 30px;
-    color: #ffff;
+    color: var(--branco);
     font-family: 'Courier New', Courier, monospace;
 }
