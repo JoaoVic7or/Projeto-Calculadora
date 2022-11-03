@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(90deg ,rgb(0, 80, 252), rgb(59, 121, 255), rgb(191, 209, 241));
+    background: linear-gradient(180deg ,rgb(0, 80, 252), rgb(59, 121, 255));
     user-select: none;
     -webkit-user-select: none;
 }
